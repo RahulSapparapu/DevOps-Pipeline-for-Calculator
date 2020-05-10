@@ -1,8 +1,8 @@
-package Calculator;
-import java.util.Scanner; 
+//package Calculator;
+//import java.util.Scanner; 
 
 //Version 1.0.0
-
+/**
 public class App {
     public static void main(String []args) {
         double result1,result2,result3,result4;
@@ -65,4 +65,12 @@ public class App {
 
         System.out.println("********************************************\n");
     }    
+}
+*/
+
+
+public class App {
+    public static void main(String []args) {
+    	System.out.println("Hello Java"); 
+    }
 }
