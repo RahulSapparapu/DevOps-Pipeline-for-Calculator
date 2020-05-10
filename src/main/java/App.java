@@ -28,12 +28,12 @@ public class App {
         System.out.print("\n");
         //System.out.println("Not yet built, what for next version.");
         
-        /**System.out.println("First number: "+a);
+        System.out.println("First number: "+a);
         System.out.println("Second number: "+b);
         result1 = a - b;
         System.out.println("Subtraction Result: "+result1);
-        System.out.print("\n");*/
-        System.out.println("Subtraction module is not yet built, what for the next version.");
+        System.out.print("\n");
+        //System.out.println("Subtraction module is not yet built, what for the next version.");
         
         /*System.out.println("First number: "+a);
         System.out.println("Second number: "+b);
