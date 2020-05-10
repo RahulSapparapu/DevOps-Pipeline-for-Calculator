@@ -1,5 +1,5 @@
 //package Calculator;
-import java.util.Scanner; 
+//import java.util.Scanner; 
 
 //Version 1.0.0
 
@@ -7,7 +7,7 @@ public class App {
     public static void main(String []args) {
         double result1,result2,result3,result4;
         int x;
-        Scanner sc= new Scanner(System.in);
+        
         System.out.println("**************** Calculator ****************\n");
         System.out.println("              Select a option:                  "); 
         System.out.println("1. Addition");
@@ -15,62 +15,39 @@ public class App {
         System.out.println("3. Multiplication");
         System.out.println("4. Division");
         System.out.println("********************************************\n"); 
-        System.out.print("Enter a option: ");
-        x = sc.nextInt();
+        
+        
+        double a = 2.78;
+        double b = 8.09;
+        
+        
+        System.out.println("First number: "+a);
+        System.out.println("Second number: "+b);
+        result1 = a + b;
+        System.out.println("Addition Result: "+result1);
         System.out.print("\n");
+        //System.out.println("Not yet built, what for next version.");
+        
+        /**System.out.println("First number: "+a);
+        System.out.println("Second number: "+b);
+        result1 = a - b;
+        System.out.println("Subtraction Result: "+result1);
+        System.out.print("\n");*/
+        System.out.println("Subtraction module is not yet built, what for the next version.");
+        
+        /*System.out.println("First number: "+a);
+        System.out.println("Second number: "+b);
+        result1 = a * b;
+        System.out.println("Multiplication Result: "+result1);
+        System.out.print("\n");*/
+        System.out.println("Multiplication module is not yet built, what for the next version.");
+        
+        /**System.out.println("First number: "+a);
+        System.out.println("Second number: "+b);
+        result1 = a / b;
+        System.out.println("Division Result: "+result1);*/
+        System.out.println("Division module is not yet built, what for the next version.");
 
-        if(x == 1){
-            System.out.print("Enter the first number: ");
-            double a = sc.nextDouble();
-            System.out.print("Enter the second number: ");
-            double b = sc.nextDouble();
-            result1 = a + b;
-            System.out.println("Result: "+result1);
-            //System.out.println("Not yet built, what for next version.");
-        }
-
-        else if(x == 2){
-            // System.out.print("Enter the first number: ");
-            // double c = sc.nextDouble();
-            // System.out.print("Enter the second number: ");
-            // double d = sc.nextDouble();
-            // result2 = c - d;
-            // System.out.println("Result: "+result2);
-            System.out.println("Not yet built, what for next version.");
-        }
-
-        else if(x == 3){
-            // System.out.print("Enter the first number: ");
-            // double e = sc.nextDouble();
-            // System.out.print("Enter the second number: ");
-            // double f = sc.nextDouble();
-            // result3 = e * f;
-            // System.out.println("Result: "+result3);
-            System.out.println("Not yet built, what for next version.");
-        }
-
-        else if(x == 4){
-            // System.out.print("Enter the first number: ");
-            // double g = sc.nextDouble();
-            // System.out.print("Enter the second number: ");
-            // double h = sc.nextDouble();
-            // result4 = g / h;
-            // System.out.println("Result: "+result4);
-            System.out.println("Not yet built, what for next version.");
-        }
-
-        else{
-            System.out.println("Wrong input!");
-        }
-
-        System.out.println("********************************************\n");
+        System.out.println("\n********************************************\n");
     }    
 }
-
-
-/**
-public class App {
-    public static void main(String []args) {
-    	System.out.println("Hello Java"); 
-    }
-}*/
