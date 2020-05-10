@@ -42,11 +42,11 @@ public class App {
         System.out.print("\n");
         //System.out.println("Multiplication module is not yet built, what for the next version.");
         
-        /**System.out.println("First number: "+a);
+        System.out.println("First number: "+a);
         System.out.println("Second number: "+b);
         result1 = a / b;
-        System.out.println("Division Result: "+result1);*/
-        System.out.println("Division module is not yet built, what for the next version.");
+        System.out.println("Division Result: "+result1);
+        //System.out.println("Division module is not yet built, what for the next version.");
 
         System.out.println("\n********************************************\n");
     }    
