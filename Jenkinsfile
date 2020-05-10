@@ -30,7 +30,7 @@ pipeline {
           options: """
             BUILD_VERSION=$BUILD_NUMBER
           """,
-          jobId: " c8d69763-0ea7-48f4-a300-28efdd6c5559"])
+          jobId: "c8d69763-0ea7-48f4-a300-28efdd6c5559"])
         }
       }
     }
